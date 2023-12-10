@@ -32,6 +32,15 @@ button {
   border: none;
   padding: 0;
   line-height: 0;
+  cursor: pointer;
+}
+
+.page-header {
+  border-bottom: 1px solid var#E7E9FC;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -65,19 +74,110 @@ button {
   color: #2e2f42;
 }
 
-.menu {
-  display: none;
-}
-
-.contacts {
-  display: none;
-}
-
 .mobile-menu-open-button {
   fill: #2f2f37;
 }
 
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  .box-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mobile-menu-open-button {
+    display: none;
+  }
+
+  .nav-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+
+  .link-nav {
+    display: block;
+    color: #2e2f42;
+    font-weight: 500;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .contacts-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link-contacts {
+    color: #434455;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+  }
+
+  .link-nav:active {
+    color: #404bbf;
+  }
+
+  .link-contacts:active {
+    color: #404bbf;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .contacts-menu {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .link-nav:hover,
+  .link-nav:focus {
+    color: #404bbf;
+  }
+
+  .link-contacts:hover,
+  .link-contacts:focus {
+    color: #404bbf;
+  }
+}
+
+/* MOBILE-MENU */
+
 .mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -118,7 +218,7 @@ button {
 }
 
 .mobile-nav {
-  margin-bottom: auto;
+  margin-bottom: 168px;
 }
 
 .mobile-nav-menu-item:not(:last-child) {
@@ -143,7 +243,7 @@ button {
   margin-bottom: 48px;
 }
 
-.mobile-address-item {
+.mobile-address-item:not(:last-child) {
   margin-bottom: 24px;
 }
 
@@ -186,14 +286,4 @@ button {
   fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 766px;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-  }
-}
+/* /MOBILE-MENU */
