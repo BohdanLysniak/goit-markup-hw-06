@@ -497,4 +497,46 @@ button {
   }
 
   /* /SECTION-HERO */
+
+  /* SECTION-ADVANTAGES */
+  .section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .advantages-caption {
+    color: #2e2f42;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+
+  .text {
+    font-weight: 400;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .icon-advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .advantages-items {
+    width: calc((100% - 72px) / 4);
+  }
+  /* /SECTION-ADVANTAGES */
 }
