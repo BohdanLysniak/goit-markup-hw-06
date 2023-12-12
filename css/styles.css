@@ -35,6 +35,19 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
@@ -122,6 +135,40 @@ button {
   font-weight: 500;
   letter-spacing: 0.04em;
 }
+
+/* SECTION-ADVANTAGES */
+
+.section-advantages {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.icon-advantages {
+  display: none;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
+}
+
+.advantages-caption {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 500;
+}
+
+/* /SECTION-ADVANTAGES */
 
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
@@ -389,8 +436,23 @@ button {
     line-height: 1.07;
     margin-bottom: 36px;
   }
+
+  /* /SECTION-HERO */
+
+  /* SECTION-ADVANTAGES */
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .advantages-items {
+    width: calc((100% - 24px) / 2);
+  }
 }
-/* /SECTION-HERO */
+
+/* /SECTION-ADVANTAGES */
 
 @media screen and (min-width: 1158px) {
   .container {
