@@ -101,8 +101,7 @@ button {
   font-size: 36px;
   font-weight: 700;
   max-width: 150px;
-  line-height: 1.12;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
   text-transform: capitalize;
   margin-right: auto;
   margin-left: auto;
@@ -134,9 +133,6 @@ button {
       ),
       url(../images/section-hero/secction-hero-mobile@2x.jpg);
   }
-}
-
-.section-title {
 }
 
 @media screen and (max-width: 767px) {
@@ -276,6 +272,31 @@ button {
   }
 }
 
+@media screen and (min-width: 768px),
+  screen and (min-resolution: 96dpi),
+  screen and (min-resolution: 1dppx),
+  screen and (min-device-pixel-ratio: 1) {
+  .section-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/section-hero/section-hero-tablet@1x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .section-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/section-hero/section-hero-talet@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -355,7 +376,21 @@ button {
     background-color: #404bbf;
   }
   /* /HEADER */
+
+  /* SECTION-HERO */
+  .section-title {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .title {
+    min-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+  }
 }
+/* /SECTION-HERO */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -386,4 +421,18 @@ button {
   }
 
   /* /HEADER */
+
+  /* SECTION-HERO */
+
+  .section-title {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+  }
+
+  .title {
+    margin-bottom: 48px;
+  }
+
+  /* /SECTION-HERO */
 }
