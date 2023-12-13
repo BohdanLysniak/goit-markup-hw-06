@@ -584,6 +584,15 @@ button {
     color: #404bbf;
   }
 
+  .link-contacts {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link-contacts:hover,
+  .link-contacts:focus {
+    color: #404bbf;
+  }
+
   /* /HEADER */
 
   /* SECTION-HERO */
@@ -596,6 +605,16 @@ button {
 
   .title {
     margin-bottom: 48px;
+  }
+
+  .button-section-hero {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-section-hero:hover,
+  .button-section-hero:focus {
+    background-color: #404bbf;
+    cursor: pointer;
   }
 
   /* /SECTION-HERO */
@@ -651,6 +670,17 @@ button {
   .team-dsc {
     width: calc((100% - 72px) / 4);
   }
+
+  .social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover {
+  background-color: #404bbf;
+}
+
+.social-link:focus {
+  background-color: #404bbf;
 
   /* /SECTION-TEAM */
 }
