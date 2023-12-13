@@ -257,6 +257,60 @@ button {
 
 /* /SECTION-TEAM */
 
+/* SECTION-PORTFOLIO */
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.portfolio-caption {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  display: none;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-dsc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 16px;
+}
+
+.product {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* /SECTION-PORTFOLIO */
+
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
@@ -672,15 +726,16 @@ button {
   }
 
   .social-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.social-link:hover {
-  background-color: #404bbf;
-}
+  .social-link:hover {
+    background-color: #404bbf;
+  }
 
-.social-link:focus {
-  background-color: #404bbf;
+  .social-link:focus {
+    background-color: #404bbf;
+  }
 
   /* /SECTION-TEAM */
 }
