@@ -315,6 +315,160 @@ button {
 
 /* /SECTION-PORTFOLIO */
 
+/* FOOTER */
+
+.footer {
+  background: #2e2f42;
+}
+
+.box-footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
+}
+
+.box-logo {
+  text-align: center;
+}
+
+.logo-footer {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
+
+.accent-studio-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  text-align: left;
+}
+
+.box-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-text {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.social-menu-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-items-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-footer {
+  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.subscribe-field-input {
+  width: 288px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  opacity: 0.3;
+  padding-left: 16px;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  outline: 0px solid transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-field-input::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-field-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border: none;
+  background: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-field-icon {
+  fill: #fff;
+}
+
+/* FOOTER */
+
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
