@@ -602,10 +602,6 @@ button {
     row-gap: 64px;
     column-gap: 24px;
   }
-
-  .team-dsc {
-    width: calc((100% - 24px) / 2);
-  }
 }
 
 /* /SECTION-TEAM */

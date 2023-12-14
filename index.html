@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="box-header container">
         <nav class="nav-header">
           <a class="logo" href="./index.html"
@@ -58,19 +58,19 @@
           </svg>
         </button>
       </div>
-    </header>
+    </header> -->
 
     <main>
-      <section class="section-title">
+      <!-- <section class="section-title">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button class="button-section-hero" type="button">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section-advantages">
+      <!-- <section class="section-advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
@@ -124,9 +124,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section-team">
+      <!-- <section class="section-team">
         <div class="container">
           <h2 class="team-caption heading">Our Team</h2>
           <ul class="team-list">
@@ -306,20 +306,41 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- <section class="section-portfolio">
+      <section class="section-portfolio">
         <div class="container">
           <h2 class="portfolio-caption heading">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-items">
               <div class="image-portfolio">
-                <img
-                  src="./images/banking-app.jpg"
-                  width="360"
-                  height="300"
-                  alt="Banking App"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/retina-section-portfolio/banking-app-desktop@1x.jpg 1x,
+                      ./images/retina-section-portfolio/banking-app-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-img-tab.jpg     1x,
+                      ./images/portfolio-img-tab-@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-img-mob.jpg     1x,
+                      ./images/portfolio-img-mob-@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio-img-mob.jpg"
+                    alt="portfolio picture"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -429,7 +450,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!-- <footer class="footer">
       <div class="container box-footer">
