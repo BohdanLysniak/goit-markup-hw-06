@@ -356,7 +356,8 @@ button {
 
 .footer-text {
   color: #f4f4fd;
-  text-align: left;
+  text-align: start;
+  max-width: 264px;
 }
 
 .box-social {
@@ -776,6 +777,18 @@ button {
   }
 
   /* SECTION-PORTFOLIO */
+
+  /* SECTION-FOOTER */
+
+  .box-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  /* SECTION-FOOTER */
 }
 
 @media screen and (min-width: 1158px) {
