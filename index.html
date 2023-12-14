@@ -354,12 +354,33 @@
             </li>
             <li class="portfolio-items">
               <div class="image-portfolio">
-                <img
-                  src="./images/cashless-payment.jpg"
-                  width="360"
-                  height="300"
-                  alt="Cashless Payment"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/retina-section-portfolio/cashless-payment-desktop@1x.jpg 1x,
+                      ./images/retina-section-portfolio/cashless-payment-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/retina-section-portfolio/cashless-payment-tablet@1x.jpg 1x,
+                      ./images/retina-section-portfolio/cashless-payment-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/retina-section-portfolio/imgcashless-payment-mobile@1x.jpg 1x,
+                      ./images/retina-section-portfolio/imgcashless-payment-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/retina-section-portfolio/imgcashless-payment-mobile@1x.jpg"
+                    alt="Cashless payment"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
