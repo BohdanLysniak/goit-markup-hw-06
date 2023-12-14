@@ -332,7 +332,6 @@ button {
 
   .mobile-menu-wrapper {
     display: flex;
-    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -381,10 +380,6 @@ button {
     line-height: 0;
   }
 
-  .mobile-nav {
-    margin-bottom: 168px;
-  }
-
   .mobile-nav-menu {
     display: flex;
     flex-direction: column;
@@ -405,7 +400,12 @@ button {
     color: #404bbf;
   }
 
+  .contacts-and-social-wrapper {
+    margin-top: auto;
+  }
+
   .mobile-address {
+    margin-top: auto;
     margin-bottom: 48px;
   }
   .mobile-address-menu {
