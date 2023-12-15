@@ -786,6 +786,20 @@ button {
     align-items: baseline;
     row-gap: 72px;
     column-gap: 24px;
+    width: 584px;
+  }
+
+  .subscribe-field-input {
+    width: 264px;
+  }
+
+  .subscribe-title {
+    text-align: start;
+  }
+
+  .subscribe-form {
+    flex-direction: row;
+    column-gap: 24px;
   }
 
   /* SECTION-FOOTER */
