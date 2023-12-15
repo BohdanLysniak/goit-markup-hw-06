@@ -543,6 +543,8 @@ button {
   width: 256px;
   color: #2e2f42;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 16px;
@@ -1042,6 +1044,15 @@ button {
   /* SECTION-FOOTER */
 
   /* MODAL-WINDOW */
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
+
+  .review-form-description {
+    width: 360px;
+  }
 
   /* /MODAL-WINDOW */
 }
