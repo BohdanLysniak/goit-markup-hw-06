@@ -899,7 +899,9 @@ button {
   .container {
     max-width: 768px;
   }
-
+  .mobile-menu-wrapper {
+    display: none;
+  }
   /* HEADER */
 
   .box-header {
