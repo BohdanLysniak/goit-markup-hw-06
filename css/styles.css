@@ -973,6 +973,7 @@ button {
     border-radius: 2px;
     background-color: #404bbf;
   }
+
   /* /HEADER */
 
   /* SECTION-HERO */
@@ -1272,11 +1273,11 @@ button {
 
   /* SECTION-FOOTER */
 
-  /* MODAL-WONDOW */
+  /* MODAL-WiNDOW */
 
   .review-form-field-input {
     padding-left: 38px;
   }
 
-  /* MODAL-WONDOW */
+  /* MODAL-WiNDOW */
 }
