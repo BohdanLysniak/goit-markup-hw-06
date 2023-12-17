@@ -994,10 +994,15 @@ button {
   /* /SECTION-HERO */
 
   /* SECTION-ADVANTAGES */
+
+  .advantages-caption {
+    text-align: left;
+  }
+
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
     justify-content: space-between;
   }
 
