@@ -373,11 +373,11 @@ button {
 
 .footer {
   background: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .box-footer {
-  padding-top: 96px;
-  padding-bottom: 96px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -415,13 +415,13 @@ button {
 .box-social {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .social-text {
   color: #fff;
   font-weight: 500;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .social-menu-footer {
@@ -553,7 +553,7 @@ button {
   transform: translate(-50%, -50%) scale(1);
   width: 288px;
   min-height: 623px;
-  padding: 72px 16px 16px 16px;
+  padding: 72px 16px 24px 16px;
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1060,6 +1060,10 @@ button {
     text-align: start;
   }
 
+  .social-text {
+    text-align: left;
+  }
+
   .subscribe-form {
     flex-direction: row;
     column-gap: 24px;
@@ -1072,6 +1076,8 @@ button {
   .modal {
     width: 408px;
     min-height: 584px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 
   .review-form-description {
@@ -1189,7 +1195,8 @@ button {
   /* SECTION-TEAM */
 
   .section-team {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .team-dsc {
@@ -1241,8 +1248,8 @@ button {
   }
 
   .section-portfolio {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .portfolio-list {
@@ -1257,15 +1264,17 @@ button {
 
   /* SECTION-FOOTER */
 
-  .box-footer {
+  .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .box-footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
     gap: 0;
-    width: 1158px;
+    width: 100%;
   }
 
   .social-link-footer:hover,
