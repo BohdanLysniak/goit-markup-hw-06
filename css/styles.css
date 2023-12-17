@@ -1110,6 +1110,13 @@ button {
     color: #404bbf;
   }
 
+  .link-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
   .link-contacts:hover,
   .link-contacts:focus {
     color: #404bbf;
